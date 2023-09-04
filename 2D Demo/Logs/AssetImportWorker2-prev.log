@@ -1,23 +1,23 @@
 Using pre-set license
-Built from '2022.3/staging' branch; Version is '2022.3.7f1 (b16b3b16c7a0) revision 11627323'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 32689 MB
+Built from '2022.3/staging' branch; Version is '2022.3.8f1 (b5eafc012955) revision 11922172'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.17134) 64bit Core' Language: 'en' Physical Memory: 16243 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-D:\Unity\2022.3.7f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2022.3.8f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker2
 -projectPath
-D:/PersonalProjects/2D Demo
+C:/UnityProjects/ClassWorkspace2D/2D Demo
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-58442
-Successfully changed project path to: D:/PersonalProjects/2D Demo
-D:/PersonalProjects/2D Demo
+56179
+Successfully changed project path to: C:/UnityProjects/ClassWorkspace2D/2D Demo
+C:/UnityProjects/ClassWorkspace2D/2D Demo
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,64 +49,65 @@ D:/PersonalProjects/2D Demo
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [3380] Host "[IP] 192.168.0.18 [Port] 0 [Flags] 2 [Guid] 2353702381 [EditorId] 2353702381 [Version] 1048832 [Id] WindowsEditor(7,Wyatt-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [14240] Host "[IP] 10.200.36.154 [Port] 0 [Flags] 2 [Guid] 764065241 [EditorId] 764065241 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-36M6KKB) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [3380] Host "[IP] 192.168.0.18 [Port] 0 [Flags] 2 [Guid] 2353702381 [EditorId] 2353702381 [Version] 1048832 [Id] WindowsEditor(7,Wyatt-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [14240] Host "[IP] 10.200.36.154 [Port] 0 [Flags] 2 [Guid] 764065241 [EditorId] 764065241 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-36M6KKB) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 13.92 ms, found 4 plugins.
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 45.35 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2022.3.7f1 (b16b3b16c7a0)
-[Subsystems] Discovering subsystems at path D:/Unity/2022.3.7f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/PersonalProjects/2D Demo/Assets
+Initialize engine version: 2022.3.8f1 (b5eafc012955)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/UnityProjects/ClassWorkspace2D/2D Demo/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: AMD Radeon RX 5700 XT (ID=0x731f)
-    Vendor:   ATI
-    VRAM:     8151 MB
-    Driver:   31.0.21001.45002
+    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c8c)
+    Vendor:   NVIDIA
+    VRAM:     4018 MB
+    Driver:   31.0.15.1659
 Initialize mono
-Mono path[0] = 'D:/Unity/2022.3.7f1/Editor/Data/Managed'
-Mono path[1] = 'D:/Unity/2022.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'D:/Unity/2022.3.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56420
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56060
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: D:/Unity/2022.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006002 seconds.
-- Loaded All Assemblies, in  0.529 seconds
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.013728 seconds.
+- Loaded All Assemblies, in  0.414 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.394 seconds
-Domain Reload Profiling: 922ms
-	BeginReloadAssembly (175ms)
+- Finished resetting the current domain, in  0.257 seconds
+Domain Reload Profiling: 668ms
+	BeginReloadAssembly (144ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (54ms)
-	RebuildNativeTypeToScriptingClass (17ms)
-	initialDomainReloadingComplete (74ms)
-	LoadAllAssembliesAndSetupDomain (208ms)
-		LoadAssemblies (174ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (75ms)
+	LoadAllAssembliesAndSetupDomain (139ms)
+		LoadAssemblies (140ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (205ms)
-			TypeCache.Refresh (203ms)
-				TypeCache.ScanAssembly (185ms)
-			ScanForSourceGeneratedMonoScriptInfo (1ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (394ms)
+		AnalyzeDomain (136ms)
+			TypeCache.Refresh (135ms)
+				TypeCache.ScanAssembly (121ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (258ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (300ms)
+		SetupLoadedEditorAssemblies (199ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (11ms)
-			SetLoadedEditorAssemblies (12ms)
+			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (198ms)
-			ProcessInitializeOnLoadMethodAttributes (75ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (133ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -114,56 +115,125 @@ Domain Reload Profiling: 922ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\PersonalProjects\2D Demo\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\PersonalProjects\2D Demo\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.958 seconds
-Refreshing native plugins compatible for Editor in 4.46 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.932 seconds
+Refreshing native plugins compatible for Editor in 9.51 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.914 seconds
-Domain Reload Profiling: 1873ms
-	BeginReloadAssembly (238ms)
+- Finished resetting the current domain, in  0.958 seconds
+Domain Reload Profiling: 1881ms
+	BeginReloadAssembly (204ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
+		DisableScriptedObjects (10ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (25ms)
-	RebuildCommonClasses (63ms)
-	RebuildNativeTypeToScriptingClass (18ms)
-	initialDomainReloadingComplete (58ms)
-	LoadAllAssembliesAndSetupDomain (580ms)
-		LoadAssemblies (450ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (57ms)
+	LoadAllAssembliesAndSetupDomain (606ms)
+		LoadAssemblies (475ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (280ms)
-			TypeCache.Refresh (228ms)
-				TypeCache.ScanAssembly (208ms)
-			ScanForSourceGeneratedMonoScriptInfo (36ms)
-			ResolveRequiredComponents (13ms)
-	FinalizeReload (916ms)
+		AnalyzeDomain (244ms)
+			TypeCache.Refresh (199ms)
+				TypeCache.ScanAssembly (178ms)
+			ScanForSourceGeneratedMonoScriptInfo (28ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (958ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (698ms)
+		SetupLoadedEditorAssemblies (746ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (6ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (101ms)
-			ProcessInitializeOnLoadAttributes (513ms)
-			ProcessInitializeOnLoadMethodAttributes (70ms)
-			AfterProcessingInitializeOnLoad (3ms)
+			BeforeProcessingInitializeOnLoad (104ms)
+			ProcessInitializeOnLoadAttributes (544ms)
+			ProcessInitializeOnLoadMethodAttributes (71ms)
+			AfterProcessingInitializeOnLoad (14ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 4.16 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 11.88 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5627 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 99 unused Assets / (0.9 MB). Loaded Objects now: 6072.
-Memory consumption went from 211.0 MB to 210.1 MB.
-Total: 5.024800 ms (FindLiveObjects: 0.471500 ms CreateObjectMapping: 0.161000 ms MarkObjects: 3.807400 ms  DeleteObjects: 0.583900 ms)
+Unloading 5632 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 84 unused Assets / (350.7 KB). Loaded Objects now: 6092.
+Memory consumption went from 211.4 MB to 211.1 MB.
+Total: 4.073732 ms (FindLiveObjects: 0.417854 ms CreateObjectMapping: 0.428521 ms MarkObjects: 3.044632 ms  DeleteObjects: 0.181333 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.983 seconds
+Refreshing native plugins compatible for Editor in 15.02 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  6.262 seconds
+Domain Reload Profiling: 8224ms
+	BeginReloadAssembly (702ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (81ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (205ms)
+	RebuildCommonClasses (98ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (121ms)
+	LoadAllAssembliesAndSetupDomain (1016ms)
+		LoadAssemblies (1230ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (92ms)
+			TypeCache.Refresh (24ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (47ms)
+			ResolveRequiredComponents (20ms)
+	FinalizeReload (6263ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1284ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (180ms)
+			ProcessInitializeOnLoadAttributes (913ms)
+			ProcessInitializeOnLoadMethodAttributes (140ms)
+			AfterProcessingInitializeOnLoad (28ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (36ms)
+Refreshing native plugins compatible for Editor in 90.60 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5480 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 47 unused Assets / (320.2 KB). Loaded Objects now: 6099.
+Memory consumption went from 184.9 MB to 184.6 MB.
+Total: 145.097470 ms (FindLiveObjects: 2.300749 ms CreateObjectMapping: 1.555012 ms MarkObjects: 140.961130 ms  DeleteObjects: 0.278260 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
@@ -177,216 +247,1480 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 161341.039514 seconds.
-  path: Assets/Tiles/other_and_decorative_51.asset
-  artifactKey: Guid(f0a1906b6faa4954bba65f2527ba5c55) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Tiles/other_and_decorative_51.asset using Guid(f0a1906b6faa4954bba65f2527ba5c55) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '39cdf6a7a0c30a455459c25665b8bbef') in 0.333939 seconds
+  Time since last request: 23593.459547 seconds.
+  path: Assets/Tiles/main_lev_build_116.asset
+  artifactKey: Guid(71a8578f9a101af43899c1deba769a7c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/main_lev_build_116.asset using Guid(71a8578f9a101af43899c1deba769a7c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '59fc4c057fb1638306c4a44c89537913') in 1.820602 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Tiles/other_and_decorative_59.asset
-  artifactKey: Guid(5d05adc0217afb94e9c038b4bf08a0af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Tiles/other_and_decorative_59.asset using Guid(5d05adc0217afb94e9c038b4bf08a0af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '49db6a52c87223bd208e345be0d6034d') in 0.023211 seconds
+  Time since last request: 0.010562 seconds.
+  path: Assets/Tiles/main_lev_build_13.asset
+  artifactKey: Guid(af2f1e1335d0f96458f861f9ac4157af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/main_lev_build_13.asset using Guid(af2f1e1335d0f96458f861f9ac4157af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '76fafab22b06df37ff699017fa8e1a85') in 0.046373 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/PlatformerSet1/AnimCharacter/attack-03.png
-  artifactKey: Guid(0eb6b104a0a66294dadc3d37f183f3f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/PlatformerSet1/AnimCharacter/attack-03.png using Guid(0eb6b104a0a66294dadc3d37f183f3f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'cf85e95d1c3597d3f2b4805da7d5fdf6') in 0.099418 seconds
+  Time since last request: 0.004618 seconds.
+  path: Assets/Tiles/main_lev_build_156.asset
+  artifactKey: Guid(da2238e593f57ff4baabd9da856320f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/main_lev_build_156.asset using Guid(da2238e593f57ff4baabd9da856320f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e5601b0ab7ca7674d88d506eb29a8470') in 0.056685 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/PlatformerSet1/Animated/torch-C-02.png
-  artifactKey: Guid(40d53443c5f19e942b076aad9edb4bb6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/PlatformerSet1/Animated/torch-C-02.png using Guid(40d53443c5f19e942b076aad9edb4bb6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '0bb28b59d25b8f2ca9dc2269275af013') in 0.038059 seconds
+  Time since last request: 0.010681 seconds.
+  path: Assets/Tiles/main_lev_build_139.asset
+  artifactKey: Guid(878aeb4c4c3b4bf43bf7813a5e46909a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/main_lev_build_139.asset using Guid(878aeb4c4c3b4bf43bf7813a5e46909a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5316b479592f721427658ceff34220c4') in 0.138392 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/PlatformerSet1/Animated/light-02.png
-  artifactKey: Guid(7d7b67b4e59bbc74d81d62962e118570) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/PlatformerSet1/Animated/light-02.png using Guid(7d7b67b4e59bbc74d81d62962e118570) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'f96c36076fa6965919aa943c0927e8c3') in 0.034561 seconds
+  Time since last request: 0.000046 seconds.
+  path: Assets/Tiles/main_lev_build_172.asset
+  artifactKey: Guid(1bc68907c204e8a4d8afb28d67a9b87d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/main_lev_build_172.asset using Guid(1bc68907c204e8a4d8afb28d67a9b87d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '43ba3f4b615d180fd26835029401ea0f') in 0.055950 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/PlatformerSet1/Animated/torch-A-01.png
-  artifactKey: Guid(f74433124a3b60644a39600ba5126d5c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/PlatformerSet1/Animated/torch-A-01.png using Guid(f74433124a3b60644a39600ba5126d5c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '082fad6868cbe3ee86d9f62a5c8730f5') in 0.034883 seconds
+  Time since last request: 0.000070 seconds.
+  path: Assets/Tiles/main_lev_build_109.asset
+  artifactKey: Guid(9dc277418459a9542a250c3addf7af65) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/main_lev_build_109.asset using Guid(9dc277418459a9542a250c3addf7af65) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e29fc5d62cd8b1b700ca079aa99f7d89') in 0.058137 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/PlatformerSet1/Animated/torch-C-03.png
-  artifactKey: Guid(0e90fd29aeb54c24dabf651ddfade11c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/PlatformerSet1/Animated/torch-C-03.png using Guid(0e90fd29aeb54c24dabf651ddfade11c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'd874bd5b2c91bd127caa970bc41a6192') in 0.033373 seconds
+  Time since last request: 0.007883 seconds.
+  path: Assets/Tiles/main_lev_build_113.asset
+  artifactKey: Guid(275287442cc7dc34395430f9fa37b773) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/main_lev_build_113.asset using Guid(275287442cc7dc34395430f9fa37b773) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '35ae6bd94d459c87fc83bbfd6ba05406') in 0.069599 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Tiles/other_and_decorative_56.asset
-  artifactKey: Guid(2475b00aedad4db4fafa1ca8440b65bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Tiles/other_and_decorative_56.asset using Guid(2475b00aedad4db4fafa1ca8440b65bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '482d5a4b8b6c36cf6cff0b52b37bb4c0') in 0.019409 seconds
+  Time since last request: 0.000096 seconds.
+  path: Assets/Tiles/main_lev_build_170.asset
+  artifactKey: Guid(ea30bda2be449ca4688c0d5bef3471b8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/main_lev_build_170.asset using Guid(ea30bda2be449ca4688c0d5bef3471b8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c519d780908ccb635fb4f445f02ceec2') in 0.081904 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/PlatformerSet1/AnimCharacter/run-04.png
-  artifactKey: Guid(5a2b1dd938d8ab64b84821848826d696) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/PlatformerSet1/AnimCharacter/run-04.png using Guid(5a2b1dd938d8ab64b84821848826d696) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '4c8e76872ed485c791b5f4cdab7f74c3') in 0.035648 seconds
+  Time since last request: 0.002845 seconds.
+  path: Assets/Tiles/main_lev_build_167.asset
+  artifactKey: Guid(1639624e6a9b63d4eab6f2f56af6511b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/main_lev_build_167.asset using Guid(1639624e6a9b63d4eab6f2f56af6511b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'be0f668eb087c3ebdfef9021ca207eee') in 0.185998 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/PlatformerSet1/Animated/torch-B-02.png
-  artifactKey: Guid(d91bf9a5da957184c8591eb7bf16f05a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/PlatformerSet1/Animated/torch-B-02.png using Guid(d91bf9a5da957184c8591eb7bf16f05a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'c31eeaccc7e490249593555d70fa5692') in 0.035662 seconds
+  Time since last request: 0.001105 seconds.
+  path: Assets/2D Lighting Example.unity
+  artifactKey: Guid(ef44c95ffe57de54e94ee94d56ca14ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2D Lighting Example.unity using Guid(ef44c95ffe57de54e94ee94d56ca14ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '567646adc303c3ebf279df79d4eee88c') in 0.030560 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001554 seconds.
+  path: Assets/Settings/Lit2DSceneTemplate.scenetemplate
+  artifactKey: Guid(d03ed43fc9d8a4f2e9fa70c1c7916eb9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Settings/Lit2DSceneTemplate.scenetemplate using Guid(d03ed43fc9d8a4f2e9fa70c1c7916eb9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5053bd7b46546d6359e8fe947901a322') in 0.495493 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Tiles/main_lev_build_154.asset
+  artifactKey: Guid(b7d703dd7f208b243b49f51a6a213731) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/main_lev_build_154.asset using Guid(b7d703dd7f208b243b49f51a6a213731) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ffa4aabb31730fdd4fec68870dff4626') in 0.038580 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/PlatformerSet1/AnimCharacter/jump-02.png
-  artifactKey: Guid(64940212aca10e546ae036b96cc8933a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/PlatformerSet1/AnimCharacter/jump-02.png using Guid(64940212aca10e546ae036b96cc8933a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '7cad1f9b0b3ad7efe615c5a999697196') in 0.032592 seconds
+  Time since last request: 0.000065 seconds.
+  path: Assets/Tiles/main_lev_build_140.asset
+  artifactKey: Guid(652b44d5336d9e944a0517c5cbdf61de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/main_lev_build_140.asset using Guid(652b44d5336d9e944a0517c5cbdf61de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6193bcefcb1be4266dc9d9e84b3ce4e9') in 0.037225 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Tiles/other_and_decorative_8.asset
-  artifactKey: Guid(dd3011ffc60385b46abbf299e1b23e55) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Tiles/other_and_decorative_8.asset using Guid(dd3011ffc60385b46abbf299e1b23e55) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'd492e4b1760a93ed2aee566c89fb3535') in 0.017862 seconds
+  Time since last request: 0.000051 seconds.
+  path: Assets/PlatformerSet1/other_and_decorative.png
+  artifactKey: Guid(fc125cd2b902af1428138adb4c7f6ec4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlatformerSet1/other_and_decorative.png using Guid(fc125cd2b902af1428138adb4c7f6ec4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '58cbfcb3bf49f686551ff7f913ba464b') in 1.852897 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 69
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Palettes/2D_Demo_Objects.prefab
+  artifactKey: Guid(d9c999f6014249f44a17bcd1d1bda239) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Palettes/2D_Demo_Objects.prefab using Guid(d9c999f6014249f44a17bcd1d1bda239) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd8020b355eaf73301d94eed1bb6f907d') in 0.095159 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Tiles/main_lev_build_132.asset
+  artifactKey: Guid(66ed4843662d1b9448a5b0def6b5b869) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/main_lev_build_132.asset using Guid(66ed4843662d1b9448a5b0def6b5b869) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '385fc32397dcf5ed961d232bada8d5bd') in 0.048978 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Tiles/main_lev_build_126.asset
+  artifactKey: Guid(43b0754e0b4f28c43ba14cf3f3ddb77f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/main_lev_build_126.asset using Guid(43b0754e0b4f28c43ba14cf3f3ddb77f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c3cc1d2f82a0d3aa3501839f41add0d1') in 0.059133 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Tiles/main_lev_build_201.asset
+  artifactKey: Guid(ed8b18c6efd69c94e862d6f63a910e25) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/main_lev_build_201.asset using Guid(ed8b18c6efd69c94e862d6f63a910e25) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '28b2aa68ff0df7a4d6dba6575fb001a0') in 0.050606 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/PlatformerSet1/03 background B.png
+  artifactKey: Guid(671c2728bfbe13e4a908a31d4b0a22fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlatformerSet1/03 background B.png using Guid(671c2728bfbe13e4a908a31d4b0a22fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c59492e2c027a9eaa4152df49b9b2ae7') in 0.137278 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Tiles/main_lev_build_110.asset
+  artifactKey: Guid(5915faa2bf614994c9a29715de4e6ed7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/main_lev_build_110.asset using Guid(5915faa2bf614994c9a29715de4e6ed7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '06b7aa7b72677d171b3e4807ae87894e') in 0.036592 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Tiles/main_lev_build_174.asset
+  artifactKey: Guid(b2f24a1750012d14a8c89eec8d336f50) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/main_lev_build_174.asset using Guid(b2f24a1750012d14a8c89eec8d336f50) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6f056b87db2a0d6994907668cc6e31f2') in 0.038946 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Tiles/main_lev_build_131.asset
+  artifactKey: Guid(6e49343ed20a3604dbbb6ca332528bb2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/main_lev_build_131.asset using Guid(6e49343ed20a3604dbbb6ca332528bb2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1ede947dc5485b01c46ab16ad34cc429') in 0.036173 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Tiles/main_lev_build_25.asset
+  artifactKey: Guid(ae6aec1989fe3c54fbfac87bc976d030) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/main_lev_build_25.asset using Guid(ae6aec1989fe3c54fbfac87bc976d030) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1fa7205ee49aa5b9f00baea219db9621') in 0.037382 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Tiles/main_lev_build_28.asset
+  artifactKey: Guid(fbcb626a01f1e2441be4bac9695c2fbf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/main_lev_build_28.asset using Guid(fbcb626a01f1e2441be4bac9695c2fbf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e5ea7c63c764a45c8305dc1cdd320932') in 0.028116 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Tiles/main_lev_build_134.asset
+  artifactKey: Guid(79f06f7a9c01c074cbd6cae541915bfe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/main_lev_build_134.asset using Guid(79f06f7a9c01c074cbd6cae541915bfe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5ffdd969ebc10ec77747150a53025b00') in 0.027548 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Tiles/main_lev_build_106.asset
+  artifactKey: Guid(4ff27eaf0e7087d48ba094735a80598b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/main_lev_build_106.asset using Guid(4ff27eaf0e7087d48ba094735a80598b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '121bf80e7c5762ce3766ebfc4f2f140d') in 0.031735 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Tiles/main_lev_build_102.asset
+  artifactKey: Guid(599ce2f6bf40a3e40a01dac2568ce449) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/main_lev_build_102.asset using Guid(599ce2f6bf40a3e40a01dac2568ce449) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '864ab18cdca78406aa66d348ce7e07ed') in 0.028389 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Tiles/main_lev_build_142.asset
+  artifactKey: Guid(86c2938b240dc434abc263959b4bb5a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/main_lev_build_142.asset using Guid(86c2938b240dc434abc263959b4bb5a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9507eda8bcd8ea2e19d09ab73752ec6a') in 0.025554 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Tiles/main_lev_build_203.asset
+  artifactKey: Guid(2d712aa66953cfe4a9f7c911cb752ff3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/main_lev_build_203.asset using Guid(2d712aa66953cfe4a9f7c911cb752ff3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c68f0512b8c42044215af2d31d0064d0') in 0.024501 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Tiles/main_lev_build_119.asset
+  artifactKey: Guid(0daa435afca342a4a9c24909e6335948) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/main_lev_build_119.asset using Guid(0daa435afca342a4a9c24909e6335948) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fc7e731aeec85f14e28a49f1a3655281') in 0.027838 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Tiles/main_lev_build_40.asset
+  artifactKey: Guid(d79c214f38be6e040b471bb925660453) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/main_lev_build_40.asset using Guid(d79c214f38be6e040b471bb925660453) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2a325882d74cb72165f7bc9e8a6d5428') in 0.030632 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Tiles/main_lev_build_31.asset
+  artifactKey: Guid(c87616cb509f0634a9e50f89dacdb472) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/main_lev_build_31.asset using Guid(c87616cb509f0634a9e50f89dacdb472) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '695d69ceea1cb4aa3a44645c0cf38a9a') in 0.028006 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Tiles/main_lev_build_36.asset
+  artifactKey: Guid(c20ac49b779734148a2d242ba5c8cc2c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/main_lev_build_36.asset using Guid(c20ac49b779734148a2d242ba5c8cc2c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'eb33979f6e1fe02ed790dc5c75d5050a') in 0.035021 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Tiles/main_lev_build_163.asset
+  artifactKey: Guid(955b2b7c8d696e44089467cba65db3c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/main_lev_build_163.asset using Guid(955b2b7c8d696e44089467cba65db3c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '633ecb8b1124f0cd87abe502f119078f') in 0.024776 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Tiles/main_lev_build_121.asset
+  artifactKey: Guid(1549524dd36c5914b94b0ed9a7c8d2ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/main_lev_build_121.asset using Guid(1549524dd36c5914b94b0ed9a7c8d2ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd21be801b1f49efa29865db45f884bc9') in 0.026598 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Tiles/main_lev_build_171.asset
+  artifactKey: Guid(f149bc81a1226ae4a8e1b49fcccf88a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/main_lev_build_171.asset using Guid(f149bc81a1226ae4a8e1b49fcccf88a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '50a4cb3afef8c4c076f60c6cb6b248d4') in 0.025982 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Tiles/main_lev_build_159.asset
+  artifactKey: Guid(f63bd822dd04ded4baae667178df0841) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/main_lev_build_159.asset using Guid(f63bd822dd04ded4baae667178df0841) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b4738f9894637cba2f984c98f6033be7') in 0.034038 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000836 seconds.
+  path: Assets/Tiles/main_lev_build_206.asset
+  artifactKey: Guid(b95591fb2d7c01e4d8a2343dc148b996) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/main_lev_build_206.asset using Guid(b95591fb2d7c01e4d8a2343dc148b996) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3cf48b0015c13475c89ca2e9ffc4f0ed') in 0.031286 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/2D_Render_Asset_Renderer.asset
+  artifactKey: Guid(0b2a38b5eaec740488c47851e3b8bda1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2D_Render_Asset_Renderer.asset using Guid(0b2a38b5eaec740488c47851e3b8bda1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a4de572f334f7406ed35398459099803') in 0.101567 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Tiles/main_lev_build_56.asset
+  artifactKey: Guid(b7dac426b8bc4cf4ba0287d3893046c2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/main_lev_build_56.asset using Guid(b7dac426b8bc4cf4ba0287d3893046c2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3d4ff5a3957063d0144f129c2536c418') in 0.047814 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Tiles/main_lev_build_21.asset
+  artifactKey: Guid(d37900a740db4cd4480fda92717bac80) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/main_lev_build_21.asset using Guid(d37900a740db4cd4480fda92717bac80) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e1ec4fc69c98e20e7925746e0f14dee9') in 0.047143 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Tiles/main_lev_build_147.asset
+  artifactKey: Guid(efc6da3da597d5a47a5be87e3b29f9af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/main_lev_build_147.asset using Guid(efc6da3da597d5a47a5be87e3b29f9af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4d5ea6b0ce1b45fcad2f90afc0e1e2da') in 0.059097 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Tiles/main_lev_build_42.asset
+  artifactKey: Guid(e63459c5885f0c64dba21327bc39e6c0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/main_lev_build_42.asset using Guid(e63459c5885f0c64dba21327bc39e6c0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4a5134612bc7fd915c5eb354e00f030f') in 0.103679 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Tiles/main_lev_build_58.asset
+  artifactKey: Guid(9e0a7428a2ec5e64881ef1e979b7d7ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/main_lev_build_58.asset using Guid(9e0a7428a2ec5e64881ef1e979b7d7ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9bbcdaa535e8ea627b9ecb1def28514a') in 0.062234 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000383 seconds.
+  path: Assets/Tiles/main_lev_build_63.asset
+  artifactKey: Guid(765e4e1b24d823c45a5ba34f56406dbe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/main_lev_build_63.asset using Guid(765e4e1b24d823c45a5ba34f56406dbe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '637984068212f3380792b3d64a348a5b') in 0.078635 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.004872 seconds.
+  path: Assets/Tiles/main_lev_build_149.asset
+  artifactKey: Guid(38c8b0e181dae39499fe9626693207c0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/main_lev_build_149.asset using Guid(38c8b0e181dae39499fe9626693207c0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3439231af685a7bb75edfd77c50ef29f') in 0.041927 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Tiles/main_lev_build_145.asset
+  artifactKey: Guid(2aa64f7c6de07534c995b42d95e2e6cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/main_lev_build_145.asset using Guid(2aa64f7c6de07534c995b42d95e2e6cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fa209f1616b506ead9146c02ddeacd1f') in 0.062401 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/Tiles/main_lev_build_68.asset
+  artifactKey: Guid(073fac43ef04f954ca2a3db77e988f07) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/main_lev_build_68.asset using Guid(073fac43ef04f954ca2a3db77e988f07) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2bb2c74ee5a4e5d30bf2173b3adc18bd') in 0.053285 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000920 seconds.
+  path: Assets/Tiles/main_lev_build_182.asset
+  artifactKey: Guid(19e1fa840a008b541ae197ebb68b9d0c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/main_lev_build_182.asset using Guid(19e1fa840a008b541ae197ebb68b9d0c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a5bb1c5afb3ac7eb2be426717d8f73d0') in 0.026610 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Tiles/main_lev_build_169.asset
+  artifactKey: Guid(86448611f2bdb274dbb781791d2c74d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/main_lev_build_169.asset using Guid(86448611f2bdb274dbb781791d2c74d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '41f44bdded77fcb53c66e7d66ba5c96c') in 0.027116 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Tiles/main_lev_build_184.asset
+  artifactKey: Guid(1f051751119077c4895a4756736c1266) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/main_lev_build_184.asset using Guid(1f051751119077c4895a4756736c1266) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '23c61f41ebe8ae2bb31c1e20dcc40f9d') in 0.073636 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.003081 seconds.
+  path: Assets/Tiles/main_lev_build_196.asset
+  artifactKey: Guid(adb44ace6ab895e429212a05db3fe695) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/main_lev_build_196.asset using Guid(adb44ace6ab895e429212a05db3fe695) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0db96991c7a5ba87749c09e073086712') in 0.051123 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Tiles/main_lev_build_75.asset
+  artifactKey: Guid(823e7b8e6421d3e42bd80b6474a04180) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/main_lev_build_75.asset using Guid(823e7b8e6421d3e42bd80b6474a04180) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ae4a77ef5882ba4433f40f99baf2c81c') in 0.039489 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Tiles/main_lev_build_73.asset
+  artifactKey: Guid(0afb802fcbef3464bae4d27396b0abcc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/main_lev_build_73.asset using Guid(0afb802fcbef3464bae4d27396b0abcc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '55e04b78742d723cecb233d6b6598a8f') in 0.073697 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/Tiles/main_lev_build_12.asset
+  artifactKey: Guid(8d3e4f14395aae24683295b041a3a55a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/main_lev_build_12.asset using Guid(8d3e4f14395aae24683295b041a3a55a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0e4fac2f48f6944ffcdcbf331b364c5f') in 0.083137 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Tiles/main_lev_build_107.asset
+  artifactKey: Guid(16e0d8aa83c71324bb2a8c46973f0edc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/main_lev_build_107.asset using Guid(16e0d8aa83c71324bb2a8c46973f0edc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5635b36b3c4763efd6c40a6da215e810') in 0.072799 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001208 seconds.
+  path: Assets/Tiles/main_lev_build_83.asset
+  artifactKey: Guid(d94405818d6d327418268ee17a4412de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/main_lev_build_83.asset using Guid(d94405818d6d327418268ee17a4412de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd2881863885585aa2246f6ca5a0dde4d') in 0.046618 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.003649 seconds.
+  path: Assets/Tiles/main_lev_build_199.asset
+  artifactKey: Guid(61d0a2513051c774db998cb42f045a04) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/main_lev_build_199.asset using Guid(61d0a2513051c774db998cb42f045a04) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8bff7358621afe003d43a53144f89b93') in 0.078589 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.003476 seconds.
+  path: Assets/Tiles/main_lev_build_202.asset
+  artifactKey: Guid(4100ce50981b92a489d3da1fe7063c7e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/main_lev_build_202.asset using Guid(4100ce50981b92a489d3da1fe7063c7e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '06505b8453c260e03c058b64dd44398b') in 0.033655 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Tiles/main_lev_build_88.asset
+  artifactKey: Guid(7072e5e22126c234dbbdee94019fba7c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/main_lev_build_88.asset using Guid(7072e5e22126c234dbbdee94019fba7c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '97a91cbe4599529906d67dc42a3c9bdf') in 0.112693 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.002571 seconds.
+  path: Assets/Tiles/main_lev_build_179.asset
+  artifactKey: Guid(eff9389687209fb458ae1e0aa8bc34b9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/main_lev_build_179.asset using Guid(eff9389687209fb458ae1e0aa8bc34b9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b5e8cffac8e61abb375ac33145c77df1') in 0.180224 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.006024 seconds.
+  path: Assets/Tiles/main_lev_build_24.asset
+  artifactKey: Guid(b37e9bd09808b804cbee76bfe1452131) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/main_lev_build_24.asset using Guid(b37e9bd09808b804cbee76bfe1452131) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b8da6b8bb490778c2860bf9fa0c49210') in 0.047698 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Tiles/main_lev_build_176.asset
+  artifactKey: Guid(032eececa9ba7e149870e3508e3bf73c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/main_lev_build_176.asset using Guid(032eececa9ba7e149870e3508e3bf73c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '305f3fd8de7cb08d9684a8023774c836') in 0.048601 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001428 seconds.
+  path: Assets/Tiles/main_lev_build_98.asset
+  artifactKey: Guid(390b688a2e993da4197ba7066c63c07d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/main_lev_build_98.asset using Guid(390b688a2e993da4197ba7066c63c07d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '51670fc8b41ee22129e7785e542976b5') in 0.034590 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Tiles/main_lev_build_81.asset
+  artifactKey: Guid(f71f3e34f91129e4fa2aa9b9631d2347) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/main_lev_build_81.asset using Guid(f71f3e34f91129e4fa2aa9b9631d2347) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd0aca0f68cdff38b4f811ea5317d2326') in 0.035019 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Tiles/main_lev_build_183.asset
+  artifactKey: Guid(9d8db44eebde2fc4b8436ecafa85b3a1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/main_lev_build_183.asset using Guid(9d8db44eebde2fc4b8436ecafa85b3a1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6c9ff42276c7bb6d1ba93c4494c2d6d1') in 0.047967 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Tiles/main_lev_build_157.asset
+  artifactKey: Guid(d86536a729a740b4e8e50c44fd6a98df) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/main_lev_build_157.asset using Guid(d86536a729a740b4e8e50c44fd6a98df) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ced27f9c04de3f523e76c076eea9ab86') in 0.033198 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Tiles/main_lev_build_161.asset
+  artifactKey: Guid(77187f40fc834d648978c237bbb2110b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/main_lev_build_161.asset using Guid(77187f40fc834d648978c237bbb2110b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ef8dcb67f1e7fd056d7463b82a764f81') in 0.038073 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Tiles/main_lev_build_16.asset
+  artifactKey: Guid(707491bb7edbd68469b74b553017572d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/main_lev_build_16.asset using Guid(707491bb7edbd68469b74b553017572d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b297649a61683898fa5f7d3db7467b95') in 0.024592 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000030 seconds.
-  path: Assets/PlatformerSet1/AnimCharacter/run-01.png
-  artifactKey: Guid(5f5bf2fc3eb067c459a4f3c7d19e0cf5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/PlatformerSet1/AnimCharacter/run-01.png using Guid(5f5bf2fc3eb067c459a4f3c7d19e0cf5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'cd9e0005e1917823e6be48a6d896a701') in 0.034880 seconds
+  path: Assets/Tiles/main_lev_build_99.asset
+  artifactKey: Guid(92b5e1f774137834f84bc1db9334b26c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/main_lev_build_99.asset using Guid(92b5e1f774137834f84bc1db9334b26c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6d0e5439c3b986a993f7575a7fa0693b') in 0.028249 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/PlatformerSet1/Animated/torch-B-04.png
-  artifactKey: Guid(914130d475273ef498c193d17bc4ab47) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/PlatformerSet1/Animated/torch-B-04.png using Guid(914130d475273ef498c193d17bc4ab47) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '59f911c71028b8227f23d83f88cc3d57') in 0.033402 seconds
+  Time since last request: 0.000049 seconds.
+  path: Assets/Tiles/main_lev_build_128.asset
+  artifactKey: Guid(c7789570d372f5a428237d80f549cafa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/main_lev_build_128.asset using Guid(c7789570d372f5a428237d80f549cafa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd1fa0f1fea9cc515790a155ec5a7c60f') in 0.027053 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Tiles/other_and_decorative_65.asset
-  artifactKey: Guid(7675ed3fa0fe52f448aca5e00e23662d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Tiles/other_and_decorative_65.asset using Guid(7675ed3fa0fe52f448aca5e00e23662d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '4a575b735dfe55065e18653874c20b82') in 0.020907 seconds
+  Time since last request: 0.000107 seconds.
+  path: Assets/Tiles/main_lev_build_95.asset
+  artifactKey: Guid(4c868387c05dece40889379cb706bbfe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/main_lev_build_95.asset using Guid(4c868387c05dece40889379cb706bbfe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd853259b568c1363563d0ca905d29d18') in 0.030559 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Settings/Scenes/URP2DSceneTemplate.unity
-  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Settings/Scenes/URP2DSceneTemplate.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '15ff09a4d05e09d9d54cd5af5517593f') in 0.016026 seconds
+  Time since last request: 0.000035 seconds.
+  path: Assets/Tiles/main_lev_build_41.asset
+  artifactKey: Guid(77fbd9b3eb06f6447988b61806fd3443) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/main_lev_build_41.asset using Guid(77fbd9b3eb06f6447988b61806fd3443) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4632c3667e4fd5538d2ae29bd8c7dab6') in 0.024001 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Tiles/main_lev_build_14.asset
+  artifactKey: Guid(4dfcb77a652d44e4ea5091a8bb236091) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/main_lev_build_14.asset using Guid(4dfcb77a652d44e4ea5091a8bb236091) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e5761142eb368f9069edc1d3e2c38b54') in 0.028404 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Tiles/other_and_decorative_1.asset
+  artifactKey: Guid(59d5647702dcd404393f38ef4f8607e3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/other_and_decorative_1.asset using Guid(59d5647702dcd404393f38ef4f8607e3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '982352501ad19a9c1302e5428f823a44') in 0.038544 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Tiles/main_lev_build_77.asset
+  artifactKey: Guid(1b5b493e7d50f8c43bf0ccfccb4e89c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/main_lev_build_77.asset using Guid(1b5b493e7d50f8c43bf0ccfccb4e89c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '41203838860ef10998a143cb17a3dae0') in 0.030304 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Tiles/other_and_decorative_23.asset
+  artifactKey: Guid(d7481693e7bdf0d42abe5b9e1b358019) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/other_and_decorative_23.asset using Guid(d7481693e7bdf0d42abe5b9e1b358019) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c921696c5579e8d959635f6fcc576a3d') in 0.031461 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Tiles/other_and_decorative_24.asset
+  artifactKey: Guid(3cb2423559544574bab7426871ce0329) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/other_and_decorative_24.asset using Guid(3cb2423559544574bab7426871ce0329) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6c7901860fd5f3c6b04e8041d89af32f') in 0.060857 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Tiles/other_and_decorative_18.asset
+  artifactKey: Guid(be58a7db1c9fb7246aa506b5fee28246) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/other_and_decorative_18.asset using Guid(be58a7db1c9fb7246aa506b5fee28246) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c56ecd9a9cd8669fe110ba58dfa2b8a6') in 0.052446 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Tiles/other_and_decorative_27.asset
+  artifactKey: Guid(c5ed7470bfe1d564bbe5a6f2ff8a6739) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/other_and_decorative_27.asset using Guid(c5ed7470bfe1d564bbe5a6f2ff8a6739) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '29891c3ac3616723bf079934ef20f4ba') in 0.043084 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Tiles/main_lev_build_94.asset
+  artifactKey: Guid(4c1d00413cc46e543b39648035a0e14f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/main_lev_build_94.asset using Guid(4c1d00413cc46e543b39648035a0e14f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f3742a08b829b67f2b4b2b7e74a83d12') in 0.034484 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Tiles/main_lev_build_204.asset
+  artifactKey: Guid(57b4dea083f15cf4386d579c3330ed94) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/main_lev_build_204.asset using Guid(57b4dea083f15cf4386d579c3330ed94) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b3cffbf4ef15d9447dd267b92e74250e') in 0.031402 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Tiles/main_lev_build_46.asset
+  artifactKey: Guid(f7187a3ffd986e744b81e0e6f2e0a0b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/main_lev_build_46.asset using Guid(f7187a3ffd986e744b81e0e6f2e0a0b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '28e29da1d809c8113a3e5641096957f1') in 0.026274 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Tiles/other_and_decorative_43.asset
+  artifactKey: Guid(5906fc48e7daae64e92265513838fa1a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/other_and_decorative_43.asset using Guid(5906fc48e7daae64e92265513838fa1a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9851360ae3d274a726f0d567d4e59157') in 0.024081 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000028 seconds.
-  path: Assets/PlatformerSet1/AnimCharacter/attack-07-continue.png
-  artifactKey: Guid(b06a0c5187b449349b9e035257636f17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/PlatformerSet1/AnimCharacter/attack-07-continue.png using Guid(b06a0c5187b449349b9e035257636f17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '969543ce5ee879016a9bf8489db6f2c4') in 0.032530 seconds
+  path: Assets/Tiles/other_and_decorative_31.asset
+  artifactKey: Guid(da82beac089532e48a85a7bc01df924e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/other_and_decorative_31.asset using Guid(da82beac089532e48a85a7bc01df924e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '262092e76d59d537c3541a8dcb41ba82') in 0.021597 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/PlatformerSet1/Animated/diamond-03.png
-  artifactKey: Guid(2105a7dfce2b6244098a6dddc301576b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/PlatformerSet1/Animated/diamond-03.png using Guid(2105a7dfce2b6244098a6dddc301576b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '6b51815ab3ccfd24ded1041668f42aac') in 0.034399 seconds
+  Time since last request: 0.000037 seconds.
+  path: Assets/Tiles/other_and_decorative_4.asset
+  artifactKey: Guid(4618d9dc480d332409adf895317f412b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/other_and_decorative_4.asset using Guid(4618d9dc480d332409adf895317f412b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '09d5a7b9716d5b8cbfbffbc8b4991a17') in 0.020625 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000021 seconds.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Tiles/main_lev_build_80.asset
+  artifactKey: Guid(627effb01dce01740ba13c5a85b199ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/main_lev_build_80.asset using Guid(627effb01dce01740ba13c5a85b199ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '46e69bbd420997f204ad07992e3d928d') in 0.023147 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Tiles/other_and_decorative_19.asset
+  artifactKey: Guid(cf7a3e59b3326434facaa5988f6d0209) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/other_and_decorative_19.asset using Guid(cf7a3e59b3326434facaa5988f6d0209) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '051054c7f08a621b42b50ede05372de5') in 0.028297 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Tiles/main_lev_build_45.asset
+  artifactKey: Guid(7b14e61d63f415f45aeded34c6402aa9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/main_lev_build_45.asset using Guid(7b14e61d63f415f45aeded34c6402aa9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6bb9fc88a1193b9555008f29a10a46db') in 0.020526 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Tiles/main_lev_build_89.asset
+  artifactKey: Guid(69a37634a4b0e2e408af4e85c65165c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/main_lev_build_89.asset using Guid(69a37634a4b0e2e408af4e85c65165c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f121ac91e6f1b68e2b603fa4fda5ce43') in 0.021862 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Tiles/other_and_decorative_12.asset
+  artifactKey: Guid(a9316fc2890fc6e43a90c8b3ff0175d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/other_and_decorative_12.asset using Guid(a9316fc2890fc6e43a90c8b3ff0175d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a8efcbe1fa055110d2aab848b03b4069') in 0.020656 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Tiles/main_lev_build_60.asset
+  artifactKey: Guid(c9b06bd1798bf69488911f15954d8d71) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/main_lev_build_60.asset using Guid(c9b06bd1798bf69488911f15954d8d71) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '64f66642e300a875a26a56389c2f7ec2') in 0.022381 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Tiles/main_lev_build_66.asset
+  artifactKey: Guid(c9fecbeb246e4734ab49c560c182b8a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/main_lev_build_66.asset using Guid(c9fecbeb246e4734ab49c560c182b8a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8fd25c075295b869184b230efe40e311') in 0.023909 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Tiles/main_lev_build_9.asset
+  artifactKey: Guid(bdf38d1d2a60169489eaa28d4c04e182) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/main_lev_build_9.asset using Guid(bdf38d1d2a60169489eaa28d4c04e182) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '642ff479e2b378e45bb9e4fca6cf6c71') in 0.025172 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Tiles/other_and_decorative_44.asset
+  artifactKey: Guid(f316b558ce29b5548bc7caa81739d3d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/other_and_decorative_44.asset using Guid(f316b558ce29b5548bc7caa81739d3d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '30cd8c40e8d142ca67d1eb824dc26376') in 0.039694 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Tiles/other_and_decorative_53.asset
+  artifactKey: Guid(20f2ba4d0c77f4d49b01e2df472601f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/other_and_decorative_53.asset using Guid(20f2ba4d0c77f4d49b01e2df472601f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3674221f701d224e4643dafbcc3a3d1d') in 0.019974 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Tiles/other_and_decorative_48.asset
+  artifactKey: Guid(1e1f5df5c0a9d7747a7c4bdf3502d83a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/other_and_decorative_48.asset using Guid(1e1f5df5c0a9d7747a7c4bdf3502d83a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'de855cda591d5ec9dc17026fa1fbd647') in 0.022260 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Tiles/other_and_decorative_55.asset
+  artifactKey: Guid(59493b3acd81a2c4c9f77a1528be5616) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/other_and_decorative_55.asset using Guid(59493b3acd81a2c4c9f77a1528be5616) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4e05657c4fa9abef3ef49a6306aeb90a') in 0.021339 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Tiles/other_and_decorative_51.asset
+  artifactKey: Guid(f0a1906b6faa4954bba65f2527ba5c55) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/other_and_decorative_51.asset using Guid(f0a1906b6faa4954bba65f2527ba5c55) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd4e7c7feba8fc967ff18977ab6643b9a') in 0.027347 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Tiles/other_and_decorative_47.asset
+  artifactKey: Guid(789e483ff5839bf4798f494cee5df856) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/other_and_decorative_47.asset using Guid(789e483ff5839bf4798f494cee5df856) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a4ab73fb1b54b99ebb10f31358d9f02a') in 0.018433 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Tiles/other_and_decorative_50.asset
+  artifactKey: Guid(0ac79d9fd6188fd4bb5aa74235e24d81) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/other_and_decorative_50.asset using Guid(0ac79d9fd6188fd4bb5aa74235e24d81) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '86f08809b667fc37656f76194111c0f9') in 0.023777 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Tiles/other_and_decorative_54.asset
+  artifactKey: Guid(a0d9f56986dabb3469c4a4e620f54f94) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/other_and_decorative_54.asset using Guid(a0d9f56986dabb3469c4a4e620f54f94) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '05f60caa6dddd80fe771483889202c35') in 0.024380 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Tiles/other_and_decorative_10.asset
+  artifactKey: Guid(cd1f33d1e9414174786f8f1f0b960950) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/other_and_decorative_10.asset using Guid(cd1f33d1e9414174786f8f1f0b960950) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bd9f6efe0f5f0d58bc9222d2674d87f0') in 0.031576 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Tiles/main_lev_build_54.asset
+  artifactKey: Guid(5135530ce9f092c4fa143c7dfecc321a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/main_lev_build_54.asset using Guid(5135530ce9f092c4fa143c7dfecc321a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ebd9463713d4ea4e069f01b304032449') in 0.024083 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Tiles/other_and_decorative_9.asset
+  artifactKey: Guid(7a16240ec908a464381b8766ac5a60b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/other_and_decorative_9.asset using Guid(7a16240ec908a464381b8766ac5a60b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bdc165a4824aad9569a658a5b098bff9') in 0.026881 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/PlatformerSet1/Animated/light-02.png
+  artifactKey: Guid(7d7b67b4e59bbc74d81d62962e118570) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlatformerSet1/Animated/light-02.png using Guid(7d7b67b4e59bbc74d81d62962e118570) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7b075f5c854f78c56ed1d5c3c086ce78') in 0.075218 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Tiles/other_and_decorative_7.asset
+  artifactKey: Guid(9cd29ba1a25e192478ea16b90d04075c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/other_and_decorative_7.asset using Guid(9cd29ba1a25e192478ea16b90d04075c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a715b00605743d157d692a94e1ad500c') in 0.033638 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Tiles/other_and_decorative_8.asset
+  artifactKey: Guid(dd3011ffc60385b46abbf299e1b23e55) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/other_and_decorative_8.asset using Guid(dd3011ffc60385b46abbf299e1b23e55) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5da8ea03ab1898f4ba4d40321f24b149') in 0.022728 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/PlatformerSet1/Animated/diamond-04.png
+  artifactKey: Guid(61b95d20fa9102b48a8413e4368978e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlatformerSet1/Animated/diamond-04.png using Guid(61b95d20fa9102b48a8413e4368978e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c5df3eae5846f28eb8d0d5f8f1f6d23a') in 0.073764 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Tiles/other_and_decorative_65.asset
+  artifactKey: Guid(7675ed3fa0fe52f448aca5e00e23662d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/other_and_decorative_65.asset using Guid(7675ed3fa0fe52f448aca5e00e23662d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0c9151e4bef128987361431a1623fb34') in 0.021807 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Tiles/other_and_decorative_63.asset
+  artifactKey: Guid(81a04dab7f93698478bd959b0376ccad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/other_and_decorative_63.asset using Guid(81a04dab7f93698478bd959b0376ccad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '41710634f5218906a30677242258c62f') in 0.028614 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/PlatformerSet1/Animated/light-01.png
+  artifactKey: Guid(ac7afdfbc618d124f826084a1e54b5ad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlatformerSet1/Animated/light-01.png using Guid(ac7afdfbc618d124f826084a1e54b5ad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd7b0433ad127a35b6856470af1f16ae7') in 0.076214 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/PlatformerSet1/AnimCharacter/attack-05.png
+  artifactKey: Guid(795b97dd4efe7c748885440b5a8daa8a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlatformerSet1/AnimCharacter/attack-05.png using Guid(795b97dd4efe7c748885440b5a8daa8a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fc717f6bb12339339b16c88de2b3a171') in 0.086809 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/PlatformerSet1/Animated/torch-C-01.png
+  artifactKey: Guid(80639418a069e3147bff7c5c3e2618cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlatformerSet1/Animated/torch-C-01.png using Guid(80639418a069e3147bff7c5c3e2618cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2def60c7d66e1ec4b256feb52b5c4799') in 0.070562 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/PlatformerSet1/AnimCharacter/attack-04.png
+  artifactKey: Guid(fa0cb05d87d658147a2fdc6f50f5bf4e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlatformerSet1/AnimCharacter/attack-04.png using Guid(fa0cb05d87d658147a2fdc6f50f5bf4e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '19f32b9cb23a9b7520d01c6dd6b12127') in 0.071040 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/PlatformerSet1/Animated/torch-C-04.png
+  artifactKey: Guid(aa29ff8d97b59d04080af7cbb125622e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlatformerSet1/Animated/torch-C-04.png using Guid(aa29ff8d97b59d04080af7cbb125622e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bcda8740a82a397396198cf61e8117f1') in 0.080192 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/PlatformerSet1/Animated/torch-B-04.png
+  artifactKey: Guid(914130d475273ef498c193d17bc4ab47) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlatformerSet1/Animated/torch-B-04.png using Guid(914130d475273ef498c193d17bc4ab47) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7cf83df71009c70fbdaef02bfd248209') in 0.076853 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/PlatformerSet1/AnimCharacter/idle-01.png
+  artifactKey: Guid(a70b3fff8c0d54e41b799a19a9a33a3f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlatformerSet1/AnimCharacter/idle-01.png using Guid(a70b3fff8c0d54e41b799a19a9a33a3f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '19a0a752a187b239e3ad3eb838b8f696') in 0.101323 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/PlatformerSet1/AnimCharacter/attack-08-continue.png
+  artifactKey: Guid(5a90aedfd7cdeec4898996cc04258783) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlatformerSet1/AnimCharacter/attack-08-continue.png using Guid(5a90aedfd7cdeec4898996cc04258783) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9c1a47c51d6e215fd88d6a10763c6ca0') in 0.075745 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/PlatformerSet1/AnimCharacter/idle-03.png
+  artifactKey: Guid(a8e288923c970694791ff016139f47c2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlatformerSet1/AnimCharacter/idle-03.png using Guid(a8e288923c970694791ff016139f47c2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '75b90e58a53394f610974457b6d7e1b6') in 0.079885 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/PlatformerSet1/Animated/torch-A-02.png
+  artifactKey: Guid(09b31d490701d0b48acc760497b071fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlatformerSet1/Animated/torch-A-02.png using Guid(09b31d490701d0b48acc760497b071fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7eb68142bbccbe4cfe5d31c82ecb9bdc') in 0.072817 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Tiles/main_lev_build_85.asset
+  artifactKey: Guid(8ace92ce451cfe64ab914061d0bf413f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/main_lev_build_85.asset using Guid(8ace92ce451cfe64ab914061d0bf413f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8ff811fe50e579839612ab6d6e0693c9') in 0.022266 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
   path: Assets/PlatformerSet1/AnimCharacter/idle-05.png
   artifactKey: Guid(a99dee446f3dc7145b6e245387da76b8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
 Start importing Assets/PlatformerSet1/AnimCharacter/idle-05.png using Guid(a99dee446f3dc7145b6e245387da76b8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'b610724c3571d4d06c707dfea185ea5a') in 0.031674 seconds
+ -> (artifact id: '4330c848f907dddcba34b14dcddc9de3') in 0.081996 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 6.107285 seconds.
-  path: Assets/2D_Render_Asset.asset
-  artifactKey: Guid(70baaab17e5651940ae8e8e1a04b9ce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D_Render_Asset.asset using Guid(70baaab17e5651940ae8e8e1a04b9ce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e84b94d92c3707d52964cce539b1ff50') in 0.002429 seconds
+  Time since last request: 0.000037 seconds.
+  path: Assets/PlatformerSet1/AnimCharacter/jump-01.png
+  artifactKey: Guid(71a20340449671f48b902334bc6b5993) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlatformerSet1/AnimCharacter/jump-01.png using Guid(71a20340449671f48b902334bc6b5993) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6b17a662fa4eb2d3354408021fb67219') in 0.086275 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.971707 seconds.
-  path: Assets/2D_Render_Asset_Renderer.asset
-  artifactKey: Guid(0b2a38b5eaec740488c47851e3b8bda1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/2D_Render_Asset_Renderer.asset using Guid(0b2a38b5eaec740488c47851e3b8bda1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'd3ad0cdd9bad777cc75dd8e45ef12cfc') in 0.028372 seconds
+  Time since last request: 0.000055 seconds.
+  path: Assets/PlatformerSet1/AnimCharacter/jump-landing-03.png
+  artifactKey: Guid(8201072009f86cc42baed2c4a83a955c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlatformerSet1/AnimCharacter/jump-landing-03.png using Guid(8201072009f86cc42baed2c4a83a955c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c9cd656025791d75fae52b9b0e1c45d7') in 0.090859 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Tiles/main_lev_build_78.asset
+  artifactKey: Guid(9c2c8e6f7784e5b42ab6eeabe9e15c83) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/main_lev_build_78.asset using Guid(9c2c8e6f7784e5b42ab6eeabe9e15c83) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e5a0d693c001f6d03cafb985e3586f91') in 0.020051 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Tiles/main_lev_build_92.asset
+  artifactKey: Guid(1b08d0a7d3974e84787a34345c7f88e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/main_lev_build_92.asset using Guid(1b08d0a7d3974e84787a34345c7f88e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '222862b64667bd268873d40ff605afba') in 0.017507 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Tiles/main_lev_build_91.asset
+  artifactKey: Guid(919549242d2dff345a6afb6fd803fc87) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/main_lev_build_91.asset using Guid(919549242d2dff345a6afb6fd803fc87) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ed33473585bb360bfd225944b23907b6') in 0.018859 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/PlatformerSet1/AnimCharacter/dead-02.png
+  artifactKey: Guid(3eecfb6be120d34478af5d676f903670) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlatformerSet1/AnimCharacter/dead-02.png using Guid(3eecfb6be120d34478af5d676f903670) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd03e1e6de4d4455d0ff67f270b202607') in 0.073663 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/PlatformerSet1/Scene/Demo.unity
+  artifactKey: Guid(5afe6894a41ae674bb9f35073d2f3175) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlatformerSet1/Scene/Demo.unity using Guid(5afe6894a41ae674bb9f35073d2f3175) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2c470c7c6aacfcf5b49af1f8eaeb3949') in 0.015651 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 ========================================================================
-Received Prepare
-Switching render pipeline 681886c5eb7344803b6206f758bf0b1c -> 70baaab17e5651940ae8e8e1a04b9ce3
-Refreshing native plugins compatible for Editor in 5.93 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 19 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 19 unused Assets / (0.9 MB). Loaded Objects now: 6073.
-Memory consumption went from 103.4 MB to 102.5 MB.
-Total: 6.229100 ms (FindLiveObjects: 0.623200 ms CreateObjectMapping: 0.250800 ms MarkObjects: 4.715500 ms  DeleteObjects: 0.638600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Settings/Scenes/URP2DSceneTemplate.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Settings/Scenes/URP2DSceneTemplate.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e33a09435801a798c51d3a42f1fa253a') in 0.021928 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/PlatformerSet1/AnimCharacter/run-07.png
+  artifactKey: Guid(240b3cc68b220a34eae06c686706d78b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlatformerSet1/AnimCharacter/run-07.png using Guid(240b3cc68b220a34eae06c686706d78b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '483e1565ca4ed2175ebb08e0033d0828') in 0.091102 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Tiles/main_lev_build_47.asset
+  artifactKey: Guid(9e855bbf8dcf52449856882aa68ed1af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/main_lev_build_47.asset using Guid(9e855bbf8dcf52449856882aa68ed1af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e0dffcddf04885d895abc7bb0d5f4949') in 0.021815 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Tiles/other_and_decorative_40.asset
+  artifactKey: Guid(65ed0ae5e2a1f0d44952ae4608573b86) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/other_and_decorative_40.asset using Guid(65ed0ae5e2a1f0d44952ae4608573b86) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'abd4a63a8ca6b5b43eac7cb4a34e5237') in 0.022251 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/PlatformerSet1/Animated/torch-B-02.png
+  artifactKey: Guid(d91bf9a5da957184c8591eb7bf16f05a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlatformerSet1/Animated/torch-B-02.png using Guid(d91bf9a5da957184c8591eb7bf16f05a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'da4c93e9b2af4a722b970f1fbef70e31') in 0.088178 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Tiles/main_lev_build_111.asset
+  artifactKey: Guid(aba3a8cbe5ac9904bb207adb5b567b9c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/main_lev_build_111.asset using Guid(aba3a8cbe5ac9904bb207adb5b567b9c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '209359949e3c4c3db9d6e7d4926c5faf') in 0.024405 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Tiles/other_and_decorative_49.asset
+  artifactKey: Guid(46289c940394bc548832c1de30ea20a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/other_and_decorative_49.asset using Guid(46289c940394bc548832c1de30ea20a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9e50c4d253dd3c5529c3a6b186b10f05') in 0.021215 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Tiles/main_lev_build_32.asset
+  artifactKey: Guid(8734a4704d12ec54ca1ba49b8d3fc6c8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/main_lev_build_32.asset using Guid(8734a4704d12ec54ca1ba49b8d3fc6c8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9db806eab85ce39d9e69ea19ec86b4c7') in 0.019815 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Tiles/main_lev_build_3.asset
+  artifactKey: Guid(9803390bc3cbd39468cbc0ec486f26ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/main_lev_build_3.asset using Guid(9803390bc3cbd39468cbc0ec486f26ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1f24a782de7de657fb4cd650f3d2f54f') in 0.023885 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/SomeScript.cs
+  artifactKey: Guid(a21b027589db55940b428ae350512c09) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SomeScript.cs using Guid(a21b027589db55940b428ae350512c09) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b121977ef610052267eff4df37232e8b') in 0.019941 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Tiles/main_lev_build_90.asset
+  artifactKey: Guid(4270b3b71d13dde449335be453988276) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/main_lev_build_90.asset using Guid(4270b3b71d13dde449335be453988276) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e225431760c1710d91777399268b99f0') in 0.019584 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Tiles/other_and_decorative_35.asset
+  artifactKey: Guid(5683d0cb6d502b34eb1af93e2b690851) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/other_and_decorative_35.asset using Guid(5683d0cb6d502b34eb1af93e2b690851) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '345148a072cdb2b154b573d40b31ae28') in 0.020484 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Tiles/main_lev_build_114.asset
+  artifactKey: Guid(eb444583e356fab41ac16ae9c5075abe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/main_lev_build_114.asset using Guid(eb444583e356fab41ac16ae9c5075abe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5b7e9d337f448f41fa0e0a9d2eb2d0ba') in 0.030421 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Tiles/main_lev_build_4.asset
+  artifactKey: Guid(9472ae89338a19b4fbee00231159584e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/main_lev_build_4.asset using Guid(9472ae89338a19b4fbee00231159584e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dbfb4816f1073489e0af23051b9f2959') in 0.018504 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/PlatformerSet1/AnimCharacter/run-01.png
+  artifactKey: Guid(5f5bf2fc3eb067c459a4f3c7d19e0cf5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlatformerSet1/AnimCharacter/run-01.png using Guid(5f5bf2fc3eb067c459a4f3c7d19e0cf5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b1769211ce3303c5e9f5443c4034e6f9') in 0.071366 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Tiles/main_lev_build_192.asset
+  artifactKey: Guid(859750cf4a89d2d47a95274274d7d1d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/main_lev_build_192.asset using Guid(859750cf4a89d2d47a95274274d7d1d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd1a8ec1d55700b5b93af00739dcd1feb') in 0.020317 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Tiles/main_lev_build_120.asset
+  artifactKey: Guid(e50919e67e3397a4fa8cb4db156c4322) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/main_lev_build_120.asset using Guid(e50919e67e3397a4fa8cb4db156c4322) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2a64714cd8a95e678988b077daf2aef9') in 0.022099 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Tiles/main_lev_build_122.asset
+  artifactKey: Guid(97331dca64c61144097179699fd2114c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/main_lev_build_122.asset using Guid(97331dca64c61144097179699fd2114c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9cca4025d57638507d7540532ebd6b65') in 0.033407 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Tiles/other_and_decorative_0.asset
+  artifactKey: Guid(2567710651e32df46b86f87785007e96) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/other_and_decorative_0.asset using Guid(2567710651e32df46b86f87785007e96) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e5633397f1898ffaf992ab761d2f78ac') in 0.043561 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Tiles/other_and_decorative_13.asset
+  artifactKey: Guid(aaa0b182b93cdd64ea1086acd60ea60a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/other_and_decorative_13.asset using Guid(aaa0b182b93cdd64ea1086acd60ea60a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'afd9955a3d6a251300bba22c536317fb') in 0.018258 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Tiles/other_and_decorative_29.asset
+  artifactKey: Guid(8f7dbfa282b9cd44db9dc12df8566746) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/other_and_decorative_29.asset using Guid(8f7dbfa282b9cd44db9dc12df8566746) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '85ec134ab9f25b4dd0731e994d202e15') in 0.023139 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Tiles/main_lev_build_20.asset
+  artifactKey: Guid(74f8e47b2009fa8429d9135d24cb2390) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/main_lev_build_20.asset using Guid(74f8e47b2009fa8429d9135d24cb2390) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '21f9fc7ac2b98c8cb843da53407fe28c') in 0.020710 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Tiles/main_lev_build_191.asset
+  artifactKey: Guid(2d304d2f87bab2f4f93c8e185eac981b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/main_lev_build_191.asset using Guid(2d304d2f87bab2f4f93c8e185eac981b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ff39bfe83e12b2fafc643fd42d85b509') in 0.024589 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Tiles/main_lev_build_164.asset
+  artifactKey: Guid(f730681109b1dfd47be51e78a0c99133) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/main_lev_build_164.asset using Guid(f730681109b1dfd47be51e78a0c99133) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bb5ead69c9eb5268d37b9d30b6b3fd7b') in 0.023861 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/PlatformerSet1/AnimCharacter/attack-07-continue.png
+  artifactKey: Guid(b06a0c5187b449349b9e035257636f17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlatformerSet1/AnimCharacter/attack-07-continue.png using Guid(b06a0c5187b449349b9e035257636f17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '31ebd8b59a6a018a4c7b388b87dbc998') in 0.086769 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Tiles/main_lev_build_162.asset
+  artifactKey: Guid(9359c45bb75784844a7dbfe2f9aa0dde) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/main_lev_build_162.asset using Guid(9359c45bb75784844a7dbfe2f9aa0dde) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '93fdaf9eb3f379d742f8e58d59d8be91') in 0.021480 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Tiles/main_lev_build_53.asset
+  artifactKey: Guid(11f9233eff0bca344844812f3c396abf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/main_lev_build_53.asset using Guid(11f9233eff0bca344844812f3c396abf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c9dfcc29902b95e8d7bfa0bad1733b0a') in 0.022182 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/PlatformerSet1/AnimCharacter/idle-06.png
+  artifactKey: Guid(22656dcc5c808d844bb94f30be5c74d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlatformerSet1/AnimCharacter/idle-06.png using Guid(22656dcc5c808d844bb94f30be5c74d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8633d4ffb29a0ae869fb55b01f1e8817') in 0.086088 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Tiles/main_lev_build_57.asset
+  artifactKey: Guid(049e021095164d740820326ac71038a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/main_lev_build_57.asset using Guid(049e021095164d740820326ac71038a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '23ef2122196f891580bebf9b19ea1c6a') in 0.023352 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Tiles/other_and_decorative_33.asset
+  artifactKey: Guid(b8ec8f6f08962ea48abfbb515333cbce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/other_and_decorative_33.asset using Guid(b8ec8f6f08962ea48abfbb515333cbce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fcde3897bedfc28ed5ab83e92b082df9') in 0.022283 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Tiles/main_lev_build_44.asset
+  artifactKey: Guid(de8ff25c0dcfebe4ab9bbbec2f5619b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/main_lev_build_44.asset using Guid(de8ff25c0dcfebe4ab9bbbec2f5619b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5ddc9aafdea714ea31524dd9e2846869') in 0.018809 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/PlatformerSet1/Animated/diamond-05.png
+  artifactKey: Guid(510e73beea7f5db419cdca3db08d8593) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlatformerSet1/Animated/diamond-05.png using Guid(510e73beea7f5db419cdca3db08d8593) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ff4aa7c56dd7b9614f902bf70fa2eb6d') in 0.075096 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Tiles/main_lev_build_18.asset
+  artifactKey: Guid(d32fc22570cc77747a5936f4e1901297) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/main_lev_build_18.asset using Guid(d32fc22570cc77747a5936f4e1901297) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4a12575be353f22f32b2af5ae64e5540') in 0.025771 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/PlatformerSet1/AnimCharacter/jump-landing-01.png
+  artifactKey: Guid(0984a7b4063a8a34d861af8c0fa3e018) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlatformerSet1/AnimCharacter/jump-landing-01.png using Guid(0984a7b4063a8a34d861af8c0fa3e018) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9ad2ae9b3759f54666d6c845b680d2d6') in 0.068864 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
 AssetImportWorker is now disconnected from the server
